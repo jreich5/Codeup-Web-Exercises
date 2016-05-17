@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My First HTML Form</title>
+    <style type="text/css">
+      #password {
+        position: absolute;
+        left: 77px;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>User Login</h2>
+    <form method="POST" action="http://requestb.in/paqxzapa">
+      
+      <p>
+          <label for="username">Username</label>
+          <input id="username" placeholder="Enter Username" name="username" type="text">
+      </p>
+      <p>
+          <label for="password">Password</label>
+          <input id="password" placeholder="Enter Password" name="password" type="password">
+      </p>
+      <p>
+          <button name="submit" type="submit">Login</button>
+      </p>
+    </form>
+    <h2>Email</h2>
+    <form method="POST" action="http://requestb.in/sglwvusg">
+
+      <label for="copyfolder">Save a copy to sent folder?</label>
+      <input type="checkbox" id="copyfolder" name="copyfolder" checked> 
+      
+      <p>
+        <label for="to">To:</label>
+        <input id="to" name ="to" type="text">
+      </p>
+      <p>
+        <label for="cc">Cc:</label>
+        <input id="cc" name="cc" type="text">
+      </p>
+      <p>
+        <label for="bcc">Bcc:</label>
+        <input id="bcc" name="bcc" type="text">
+      </p>
+      <p>
+        <label for="subject">Subject:</label>
+        <input id="subject" name="subject" type="text">
+      </p>
+      <textarea id="email_body" name="email_body" placeholder="Enter Text"></textarea>
+
+      <h2>Multiple Choice Test</h2>
+
+      <p>Where is the bread?</p>
+
+      <label>
+        <input type="radio" name="bread" value="unknown" checked>
+        Unknown
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="bread" value="kitchen">
+        Kitchen
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="bread" value="bathroom">
+        Bathroom
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="bread" value="master_bedroom">
+        Master Bedroom
+      </label>
+
+      <p>What is your name?</p>
+
+      <label>
+        <input type="radio" name="name_q" value="fred">
+        Fred
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="name_q" value="ana">
+        Ana
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="name_q" value="nonya">
+        Nonya
+      </label>
+      <br>
+      <label>
+        <input type="radio" name="name_q" value="babe">
+        Babe
+      </label>
+
+      <p>What do you like?</p>
+      <input type="checkbox" id="red" name="color[]" value="red">
+      <label for="red">Red</label>
+      
+      <br>
+      <input type="checkbox" id="blue" name="color[]" value="blue">
+      <label for="blue">Blue</label>
+     
+      <br>
+      <input type="checkbox" id="white" name="color[]" value="white">
+      <label for="white">White</label>
+      
+      <br>
+      <br>
+      <button name="submit" type="submit">Send</button>
+
+    </form>
+  </body>
+</html>

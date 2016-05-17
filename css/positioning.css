@@ -1,0 +1,73 @@
+body {
+	margin: 0;
+}
+
+#container {
+	position: relative;
+	height: auto;
+	width: auto;
+	overflow: hidden;
+	margin: 0;
+}
+
+.outer_div {
+	height: 110px;
+	width: 110px;
+	float: left;
+	position: relative;
+	margin: 6px;
+}
+
+#container>div:nth-child(2n) {
+	clear: left;
+}
+
+.inner_div {
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+  color: white;
+  border: 1px solid black;
+  padding: 10px;
+  float: left;
+  position: absolute;
+  bottom: 0px;
+  white-space: nowrap;
+}
+
+h1 {
+	position: relative;
+	top: 15px;
+	left: 10px;
+}
+
+img {
+	float: right;
+}
+
+
+#red {
+  background-color: #D84231;
+
+}
+
+#orange {
+  background-color: #EAAE33;
+}
+
+#yellow {
+  background-color: #FCF733;
+}
+
+#green {
+  background-color: #578C05;
+}
+
+#blue {
+  background-color: #234AFB;
+}
+
+#purple {
+  background-color: #DF8BF0;
+}
+
